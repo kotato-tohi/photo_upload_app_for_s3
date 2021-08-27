@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### 環境変数の設定
+```
+AWS_ACCESS_KEY_ID = 'アクセスキー'
+AWS_SECRET_ACCESS_KEY  = 'シークレットキー'
+S3_BUCKET_NAME = 'バケット名'
+```
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
