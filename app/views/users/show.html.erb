@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nickname:</strong>
+  <%= @user.nickname %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @user.age %>
+</p>
+
+<% if @user.avatar? %>  <!-- アップロード画像がある場合に実行する -->
+  <p>
+    <strong>Avatar:</strong>
+    <%= image_tag @user.avatar.url %><!-- userインスタンスの画像ファイルのURLを取得し表示 -->
+  </p>
+<% end %>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
