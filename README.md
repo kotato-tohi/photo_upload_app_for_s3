@@ -1,3 +1,5 @@
+# PUSHED FROM MAC
+
 # README
 デプロイテスト用のプロジェクト
 rails sで公開 (nxinx/unicornなし)
