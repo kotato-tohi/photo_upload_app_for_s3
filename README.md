@@ -1,4 +1,4 @@
-# PUSHED FROM MAC
+# JENKINS AUTO BUILD TEST
 
 # README
 デプロイテスト用のプロジェクト
