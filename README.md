@@ -6,6 +6,7 @@ rails sで公開 (nxinx/unicornなし)
 ```
 EC2_MYSQL_SOCKET=/var/lib/mysql/mysql.sock
 EC2_MYSQL_PASSWORD='DB接続パスワード'
+DB_HOST_NAME='localhost => 適宜変更'
 S3_BUCKET_NAME='S3のバケット名'
 AWS_ACCESS_KEY_ID='S3接続ユーザのアクセスキー'
 AWS_SECRET_ACCESS_KEY='S3接続ユーザのシークレットキー'
